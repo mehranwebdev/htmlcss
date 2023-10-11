@@ -1,0 +1,165 @@
+@import url("./variable.css");
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+header{
+    width: 100%;
+    padding: 2px;
+}
+header .left,header .right{
+    width: 42%;
+   padding: 10px;
+    /* background-color: wheat; */
+}
+header .left p{
+    font-size: 20px;
+    font-family: 'Courier New';
+    color: white;
+}
+.btn{
+    width: 20%;
+    padding: 12px;
+    background-color: rgb(7, 7, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+ .btn:hover{
+    border: 1px solid   rgb(7, 7, 255);
+    background-color: transparent;
+}
+.Home{
+    width: 100%;
+    padding: 10px;
+}
+.text{
+    width: 100%;
+    min-height: 300px;
+}
+.text h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 22px;
+    color: white; 
+    
+}
+.text .btns{
+    width: 60%;
+}
+.text .btns  .btn{
+    margin: 20px;
+}
+.imgs{
+    width: 100%;
+    padding: 18px;
+    
+}
+.img-div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn1{
+    background-color:rgb(16, 15, 15);
+    color: white;
+    
+}
+.btn1:hover{
+    background-color: rgb(7, 7, 255);
+    color: white;
+}
+
+.img-div img{
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+}
+.img-div p{
+    color: white;
+}
+.oursub{       
+    width: 100%;
+    background-color: black;
+}
+.oursub .top .left,.oursub .top .right{
+    width: 40%;
+    padding: 10px;
+    
+}
+.oursub .top .left  h2,.oursub .top .right .item p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.oursub .top .right .item p{
+    font-size: 20px;
+}
+.oursub .top .left  h2{
+    font-size: 30px;
+}
+.bottom{
+    width: 100%;
+    min-height: 200px;
+    
+}
+.bottom .card {
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    width: 410px;
+    height: 450px;
+    background-color: rgb(21, 20, 18);
+    margin: 10px;
+}
+.bottom .card .top p{
+    color: white;
+}
+.bottom .card .top p:nth-child(1){
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bottom .card .top p:nth-child(2){
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.bottom .card .top p:nth-child(2){
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bottom .center{
+    width: 100%;
+    margin-top: 10px;
+    /* height: 260px; */
+   
+}
+.bottom .center .item {
+margin: 5px;
+}
+.bottom .center .item p{
+    color: white;
+    font-size: 20px;
+}
+.bottom .bottom{
+    width: 100%;
+    height:200px !important;
+    text-align: center;
+}
+.bottom .bottom p{
+    color: rgb(42, 38, 38);
+}
+.bottom .bottom .bts{
+    width: 300px;
+    margin-top: 10px;
+}
+
+.ppp{
+    font-size: 30px !important ;
+}
